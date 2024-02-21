@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UralicNLP", "UralicNLP.csproj", "{F175CA9D-E18B-4A34-BD9D-BA5AAC07F886}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F175CA9D-E18B-4A34-BD9D-BA5AAC07F886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F175CA9D-E18B-4A34-BD9D-BA5AAC07F886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F175CA9D-E18B-4A34-BD9D-BA5AAC07F886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F175CA9D-E18B-4A34-BD9D-BA5AAC07F886}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1B80861-0128-4B09-8CD2-C0FE25B6ED2C}
+	EndGlobalSection
+EndGlobal
