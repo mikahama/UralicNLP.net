@@ -1,5 +1,9 @@
 # UralicNLP.net
 
+UralicNLP is an NLP (Natural Language Processing) library for several endangered Uralic languages. In addition, the library supports larger languages like Finnish, English, Swedish, Spanish, German, Italian, French, Russian and so on. The library is developed by [Mika Hämäläinen](https://mikakalevi.com)
+
+You might also be interested in [the Python version of UralicNLP](https://github.com/mikahama/UralicNLP).
+
 ## Download models
 
 Before using the library, you will need to download the models for each language.
@@ -96,4 +100,25 @@ Output:
     An example sentence . 
     Another , super cool sentence ! 
 
-If you want to only do sentence or word tokenization, you can use Tokenizer.Sentences("text") and Tokenizer.Words("text") respectively
+If you want to only do sentence or word tokenization, you can use Tokenizer.Sentences("text") and Tokenizer.Words("text") respectively.
+
+## Cite
+
+If you use UralicNLP in an academic publication, please cite it as follows:
+
+Hämäläinen, Mika. (2019). UralicNLP: An NLP Library for Uralic Languages. Journal of open source software, 4(37), [1345]. https://doi.org/10.21105/joss.01345
+
+    @article{uralicnlp_2019, 
+        title={{UralicNLP}: An {NLP} Library for {U}ralic Languages},
+        DOI={10.21105/joss.01345}, 
+        journal={Journal of Open Source Software}, 
+        author={Mika Hämäläinen}, 
+        year={2019}, 
+        volume={4},
+        number={37},
+        pages={1345}
+    }
+
+For citing the FSTs and CGs, see *UralicApi.ModelInfo(language)*.
+
+The FST and CG tools and dictionaries come mostly from the [GiellaLT repositories](https://github.com/giellalt) and [Apertium](https://github.com/apertium).
