@@ -4,6 +4,16 @@ UralicNLP is an NLP (Natural Language Processing) library for several endangered
 
 You might also be interested in [the Python version of UralicNLP](https://github.com/mikahama/UralicNLP).
 
+## Installation
+
+You can install UralicNLP from [NuGet](https://www.nuget.org/packages/UralicNLP/) like this:
+
+    dotnet add package UralicNLP
+
+After installing UralicNLP, you can import it like this:
+
+    using UralicNLP;
+
 ## Download models
 
 Before using the library, you will need to download the models for each language.
